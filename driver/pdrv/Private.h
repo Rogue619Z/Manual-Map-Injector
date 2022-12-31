@@ -1,0 +1,5 @@
+#pragma once
+
+PVOID GetKernelBase(OUT PULONG pSize);
+PSYSTEM_SERVICE_DESCRIPTOR_TABLE GetSSDTBase();
+PVOID GetSSDTEntry(IN ULONG index);

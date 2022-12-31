@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Callbacks.c" />
+    <ClCompile Include="Driver.c" />
+    <ClCompile Include="Funcs.c" />
+    <ClCompile Include="Private.c" />
+    <ClCompile Include="Utils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Callbacks.h" />
+    <ClInclude Include="Funcs.h" />
+    <ClInclude Include="Imports.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Private.h" />
+    <ClInclude Include="Shared.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="ntifs.h">
+      <Filter>wdsk</Filter>
+    </ClInclude>
+    <ClInclude Include="ntnls.h">
+      <Filter>wdsk</Filter>
+    </ClInclude>
+    <ClInclude Include="ntstrsafe.h">
+      <Filter>wdsk</Filter>
+    </ClInclude>
+    <ClInclude Include="ntddk.h">
+      <Filter>wdsk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="wdsk">
+      <UniqueIdentifier>{04920e27-6fcd-4cd7-b2c2-df1faddfe6f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

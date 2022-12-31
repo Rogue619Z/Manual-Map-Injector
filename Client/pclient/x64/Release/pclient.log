@@ -1,0 +1,15 @@
+﻿  pclient.cpp
+C:\Users\kcxac\Documents\Eac inje\Client\pclient\pclient.cpp(221,9): warning C4129: '[': unrecognized character escape sequence
+C:\Users\kcxac\Documents\Eac inje\Client\pclient\pclient.cpp(544,10): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\kcxac\Documents\Eac inje\Client\pclient\pclient.cpp(544,10): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\kcxac\Documents\Eac inje\Client\pclient\pclient.cpp(544,10): message : the missing variadic argument 1 is required by format string '%d'
+  Generating code
+  133 of 251 functions (53.0%) were compiled, the rest were copied from previous compilation.
+    96 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+library_x64.lib(auth.obj) : warning LNK4099: PDB '' was not found with 'library_x64.lib(auth.obj)' or at ''; linking object as if no debug info
+library_x64.lib(utils.obj) : warning LNK4099: PDB '' was not found with 'library_x64.lib(utils.obj)' or at ''; linking object as if no debug info
+library_x64.lib(hmac_sha256.obj) : warning LNK4099: PDB '' was not found with 'library_x64.lib(hmac_sha256.obj)' or at ''; linking object as if no debug info
+library_x64.lib(sha256.obj) : warning LNK4099: PDB '' was not found with 'library_x64.lib(sha256.obj)' or at ''; linking object as if no debug info
+  pclient.vcxproj -> C:\Users\kcxac\Documents\Eac inje\Client\x64\Release\pclient.exe
