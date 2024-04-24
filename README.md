@@ -1,5 +1,3 @@
-I've developed a rather effective driver for DLL injection targeting EAC Protected Games, and since I'm not aware of any notable games utilizing that particular anti-cheat system, I've opted to share it here.
-
 Functionality:
 
 The driver suspends anti-cheat threads.
